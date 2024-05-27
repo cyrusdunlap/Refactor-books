@@ -1,0 +1,39 @@
+/*
+    Colors and styles on cards are from bootstrap
+
+    colors:
+    https://getbootstrap.com/docs/4.5/getting-started/theming/#css-variables
+
+    cards:
+    https://getbootstrap.com/docs/4.5/components/card/
+*/
+
+.card {
+  margin-bottom: 25px;
+  border-color: var(--secondary);
+  position: relative;
+}
+
+.card-header {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.divider {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  text-align: center;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
